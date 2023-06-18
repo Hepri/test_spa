@@ -1,0 +1,8 @@
+exports = module.exports = require("../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "\n.AppButton[data-v-4159c250] {\n  display: inline-block;\n  padding: 0.5em 0.75em;\n  border: none;\n  border-radius: 0.25em;\n  background-color: #00acc1;\n  text-decoration: none;\n  cursor: pointer;\n  transition: background-color 0.2s;\n}\n.AppButton[data-v-4159c250], .AppButton[data-v-4159c250]:visited {\n    color: #fff;\n}\n.AppButton[data-v-4159c250]:focus, .AppButton[data-v-4159c250]:hover {\n    background-color: #00d9f4;\n}\n", "", {"version":3,"sources":["D:/tasks/spa/src/components/app/D:/tasks/spa/src/components/app/AppButton.vue","D:/tasks/spa/src/components/app/D:/tasks/spa/src/scss/settings/_color.scss"],"names":[],"mappings":";AAuBA;EACE,sBAAqB;EACrB,sBAAqB;EACrB,aAAY;EACZ,sBAAqB;EACrB,0BC5BqB;ED6BrB,sBAAqB;EACrB,gBAAe;EACf,kCAAiC;CAWlC;AAnBD;IAYI,YAAW;CACZ;AAbH;IAiBI,0BAA8C;CAC/C","file":"AppButton.vue?vue&type=style&index=0&id=4159c250&lang=scss&scoped=true","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../scss/settings/color';\r\n\r\n.AppButton {\r\n  display: inline-block;\r\n  padding: 0.5em 0.75em;\r\n  border: none;\r\n  border-radius: 0.25em;\r\n  background-color: $color-primary;\r\n  text-decoration: none;\r\n  cursor: pointer;\r\n  transition: background-color 0.2s;\r\n\r\n  &,\r\n  &:visited {\r\n    color: #fff;\r\n  }\r\n\r\n  &:focus,\r\n  &:hover {\r\n    background-color: lighten($color-primary, 10%);\r\n  }\r\n}\r\n","$color-primary: #00acc1;\r\n$color-secondary: #efefef;\r\n"],"sourceRoot":""}]);
+
+// exports

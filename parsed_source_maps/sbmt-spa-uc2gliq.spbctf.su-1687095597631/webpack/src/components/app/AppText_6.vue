@@ -1,0 +1,1 @@
+export * from "-!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./AppText.vue?vue&type=template&id=3611f2d3&scoped=true"

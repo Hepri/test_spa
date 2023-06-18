@@ -1,0 +1,8 @@
+exports = module.exports = require("../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "\n.AppTeaserList[data-v-799c9c98] {\n  display: flex;\n  flex-wrap: wrap;\n  margin-top: -1rem;\n  margin-left: -1rem;\n}\n.AppTeaserList > *[data-v-799c9c98] {\n    padding-top: 1rem;\n}\n.AppTeaserList > *[data-v-799c9c98] {\n    padding-left: 1rem;\n}\n", "", {"version":3,"sources":["D:/tasks/spa/src/components/app/D:/tasks/spa/src/components/app/AppTeaserList.vue","D:/tasks/spa/src/components/app/D:/tasks/spa/src/scss/objects/_layout.mixin.scss"],"names":[],"mappings":";AAeA;ECdE,cAAa;EACb,gBAAe;EAGb,kBALgC;EAahC,mBAb0D;CDiB7D;AAFD;ICPM,kBAR8B;CAS/B;ADML;ICCM,mBAhBwD;CAiBzD","file":"AppTeaserList.vue?vue&type=style&index=0&id=799c9c98&lang=scss&scoped=true","sourcesContent":["\n\n\n\n\n\n\n\n\n\n\n\n\r\n@import '../../scss/objects/layout.mixin';\r\n\r\n.AppTeaserList {\r\n  @include layout();\r\n}\r\n","@mixin layout($gutter-vertical: 1rem, $gutter-horizontal: 1rem) {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n\r\n  @if $gutter-vertical > 0 {\r\n    margin-top: -$gutter-vertical;\r\n\r\n    > * {\r\n      padding-top: $gutter-vertical;\r\n    }\r\n  }\r\n\r\n  @if $gutter-horizontal > 0 {\r\n    margin-left: -$gutter-horizontal;\r\n\r\n    > * {\r\n      padding-left: $gutter-horizontal;\r\n    }\r\n  }\r\n}\r\n\r\n@mixin layout__item($size: auto, $min-width: 0) {\r\n  box-sizing: border-box;\r\n\r\n  @if $size == auto {\r\n    flex-grow: 1;\r\n  } @else if $size == max {\r\n    flex-grow: 9999;\r\n  } @else {\r\n    width: $size * 100%;\r\n    flex-grow: 1;\r\n  }\r\n\r\n  @if $min-width > 0 {\r\n    flex-basis: $min-width;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+
+// exports
